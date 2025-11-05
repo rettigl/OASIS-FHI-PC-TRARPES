@@ -3352,7 +3352,7 @@ requires-dist = [
     { name = "nomad-normalizer-plugin-system", marker = "extra == 'plugins'", specifier = ">=1.0" },
     { name = "nomad-parser-plugins-atomistic", marker = "extra == 'plugins'", specifier = ">=1.0" },
     { name = "nomad-parser-plugins-database", marker = "extra == 'plugins'", specifier = ">=1.0" },
-    { name = "nomad-parser-plugins-electronic", marker = "extra == 'plugins'", specifier = ">=1.0" },
+    { name = "nomad-parser-plugins-electronic", marker = "extra == 'plugins'", specifier = ">=1.0.6" },
     { name = "nomad-parser-plugins-workflow", marker = "extra == 'plugins'", specifier = ">=1.0" },
     { name = "nomad-schema-plugin-run", marker = "extra == 'plugins'", specifier = ">=1.0.1" },
     { name = "nomad-schema-plugin-simulation-workflow", marker = "extra == 'plugins'", specifier = ">=1.0.1" },
@@ -3360,7 +3360,7 @@ requires-dist = [
     { name = "pynxtools", marker = "extra == 'plugins'", specifier = ">=0.12.0" },
     { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = ">=0.1.4" },
     { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = ">=0.2.6" },
-    { name = "sed-processor", marker = "extra == 'jupyter'", specifier = ">=1.2.0" },
+    { name = "sed-processor", marker = "extra == 'jupyter'", specifier = ">=1.3.0" },
     { name = "setuptools" },
     { name = "specsanalyzer", marker = "extra == 'jupyter'", specifier = ">=1.2.0" },
 ]
@@ -5991,7 +5991,7 @@ wheels = [
 
 [[package]]
 name = "sed-processor"
-version = "1.2.2"
+version = "1.3.0"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "bokeh" },
@@ -6026,9 +6026,9 @@ dependencies = [
     { name = "xarray", version = "2025.6.1", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version < '3.11'" },
     { name = "xarray", version = "2025.10.1", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c9/84/abbbbd1f23130dd95b8801eff33d79ce66e667560bbf314f4684a517b862/sed_processor-1.2.2.tar.gz", hash = "sha256:e0456e7d8e24945b79212dfc1357fba8334f80fc8c466460dd42403491462260", size = 146003, upload-time = "2025-08-27T14:36:44.944Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/18/9b3802da8db27164a46d73a9def0ccdaaa177d98fadf8420d7db73f8b02d/sed_processor-1.3.0.tar.gz", hash = "sha256:695ff385237e408b8e5d0758d62e7c810156153b134b1352d76a2e1d534d4afb", size = 146511, upload-time = "2025-11-05T08:28:25.403Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f6/9a/c727bfc6dbfb5b5111b8a3717d0e56bdb3c5ddec0bd8d6172b09b78fa1f7/sed_processor-1.2.2-py3-none-any.whl", hash = "sha256:6d4a4f92097aed74b8c7e2ef6cd0296b6db72868e0791232d3a9f71f4ef16e0e", size = 167331, upload-time = "2025-08-27T14:36:43.153Z" },
+    { url = "https://files.pythonhosted.org/packages/18/77/ee710ccfc81ec149fc74e816f470e34a64385b8e14b8208aac144533d0c6/sed_processor-1.3.0-py3-none-any.whl", hash = "sha256:aa2e40055e8f83216dbca78a489ae68f2493233713a3cbd0a21c830253cc98db", size = 167714, upload-time = "2025-11-05T08:28:23.533Z" },
 ]
 
 [[package]]
