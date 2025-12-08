@@ -3612,7 +3612,7 @@ wheels = [
 
 [[package]]
 name = "nomad-parser-plugins-electronic"
-version = "1.0.11"
+version = "1.0.13"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "h5py" },
@@ -3627,9 +3627,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4d/91/66a65bffdb1422292f89f644d8e1f5b8b225f2fcd5aea5a8c6f011d759a2/nomad_parser_plugins_electronic-1.0.11.tar.gz", hash = "sha256:aded0d40280e9f29efceec3f5109be5036a7336122444504d0d8f67bc18ab819", size = 82905851, upload-time = "2025-10-31T13:34:12.222Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/19/473de91a24cdd9733ad94bc5e60217bdadd05c3ffac02a25cc834377ae4a/nomad_parser_plugins_electronic-1.0.13.tar.gz", hash = "sha256:8efd24842292b28b749e8c57c59be8476512b33b6de8fbcf38d49b3ce01c5858", size = 83884462, upload-time = "2025-12-05T22:05:06.001Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a2/94/3061a6545125c2afeaa8e426e4075b353b297bf679040b5acc135c1031ad/nomad_parser_plugins_electronic-1.0.11-py3-none-any.whl", hash = "sha256:0de1cbc897002329ee980c8a75fefcf2678d22b3b9fa6d6fd7b7f28bca9146c9", size = 1132653, upload-time = "2025-10-31T13:34:08.824Z" },
+    { url = "https://files.pythonhosted.org/packages/92/3c/35f03339adf684afaf0344eb484d72db2fa6a2a978befc9add8e672a6473/nomad_parser_plugins_electronic-1.0.13-py3-none-any.whl", hash = "sha256:08d3ce0ca294bc09a3ea5651f48c55e7f5376f09e49c8345f6262df81b37d080", size = 1134296, upload-time = "2025-12-05T22:05:03.625Z" },
 ]
 
 [[package]]
@@ -5729,6 +5729,8 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/6b/fa/3234f913fe9a6525a7b97c6dad1f51e72b917e6872e051a5e2ffd8b16fbb/ruamel.yaml.clib-0.2.14-cp314-cp314-macosx_15_0_arm64.whl", hash = "sha256:70eda7703b8126f5e52fcf276e6c0f40b0d314674f896fc58c47b0aef2b9ae83", size = 137970, upload-time = "2025-09-22T19:51:09.472Z" },
     { url = "https://files.pythonhosted.org/packages/ef/ec/4edbf17ac2c87fa0845dd366ef8d5852b96eb58fcd65fc1ecf5fe27b4641/ruamel.yaml.clib-0.2.14-cp314-cp314-musllinux_1_2_i686.whl", hash = "sha256:a0cb71ccc6ef9ce36eecb6272c81afdc2f565950cdcec33ae8e6cd8f7fc86f27", size = 739639, upload-time = "2025-09-22T19:51:10.566Z" },
     { url = "https://files.pythonhosted.org/packages/15/18/b0e1fafe59051de9e79cdd431863b03593ecfa8341c110affad7c8121efc/ruamel.yaml.clib-0.2.14-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:e7cb9ad1d525d40f7d87b6df7c0ff916a66bc52cb61b66ac1b2a16d0c1b07640", size = 764456, upload-time = "2025-09-22T19:51:11.736Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/cd/150fdb96b8fab27fe08d8a59fe67554568727981806e6bc2677a16081ec7/ruamel_yaml_clib-0.2.14-cp314-cp314-win32.whl", hash = "sha256:9b4104bf43ca0cd4e6f738cb86326a3b2f6eef00f417bd1e7efb7bdffe74c539", size = 102394, upload-time = "2025-11-14T21:57:36.703Z" },
+    { url = "https://files.pythonhosted.org/packages/bd/e6/a3fa40084558c7e1dc9546385f22a93949c890a8b2e445b2ba43935f51da/ruamel_yaml_clib-0.2.14-cp314-cp314-win_amd64.whl", hash = "sha256:13997d7d354a9890ea1ec5937a219817464e5cc344805b37671562a401ca3008", size = 122673, upload-time = "2025-11-14T21:57:38.177Z" },
 ]
 
 [[package]]
