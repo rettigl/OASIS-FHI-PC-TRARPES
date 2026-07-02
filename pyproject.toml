@@ -51,7 +51,7 @@ plugins = [
   "nomad-parser-plugins-workflow>=1.1.12",
   "nomad-parser-plugins-database>=1.1.3",
   "nomad-material-processing>=1.0.6",
-  "nomad-measurements>=1.3.5",
+  "nomad-measurements>=1.3.6",
 #  "ikz_pld @ git+https://github.com/FAIRmat-NFDI/AreaA-data_modeling_and_schemas.git#subdirectory=PVD/PLD/jeremy_ikz/ikz_pld_plugin"
 ]
 
