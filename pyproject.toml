@@ -39,7 +39,7 @@ plugins = [
   "pynxtools>=0.14.0",
   "pynxtools-mpes>=0.2.8",
   "pynxtools-igor>=0.1.6",
-  "fhi-sed-config @ git+https://github.com/OpenCOMPES/fhi_sed_config.git@v1.3.17",
+  "fhi-sed-config @ git+https://github.com/OpenCOMPES/fhi_sed_config.git@add_remote_tool",
   "nomad-schema-plugin-run>=1.0.5",
   "nomad-schema-plugin-simulation-workflow>=1.0.4",
   "nomad-normalizer-plugin-bandstructure>=1.0.4",
